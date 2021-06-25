@@ -12,14 +12,16 @@ $pageName = 'Home';
 
     <h1>Init</h1>
 
-    <!-- <nav class="main-nav">
+    <!-- 
+    <nav class="main-nav">
         <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
         <ul id="menu" class="menu" role="list" hidden>
             <li class="menu-item">
                 <a href="#" class="menu-link">Link 1</a>
             </li>
         </ul>
-    </nav> -->
+    </nav> 
+    -->
 
    
     
