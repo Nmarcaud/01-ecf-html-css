@@ -564,3 +564,9 @@ footer {
 .submit-btn-form:hover {
     background-color: var(--secondary);
 }
+
+/* Page - Confidentialité */
+.privacy-page-main-content .text-section {
+    font-size: 2rem;
+    font-weight: 400;
+}
