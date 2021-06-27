@@ -83,7 +83,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.navbar-brand {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -103,11 +104,329 @@ h4 {
 /* Géré par Bootstrap */
 
 
-/* Components */
+/* Components  ----------------------------------------------------------------- Components*/
+/* Section */
+section {
+    padding: 4rem 0;
+}
 
-
-/* Navigation */
-.navbar {
+/* Background */
+.bg-orange {
     background-color: var(--accent);
     color: var(--white);
+}
+.bg-orange .section-title {
+    color: var(--white);
+}
+
+/* Boutons */
+.btn-orange {
+    background-color: var(--accent);
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    transition: .4s;
+}
+.btn-cta {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 1;
+    padding: 1rem 1.5rem;
+}
+.btn-cta:hover {
+    color: var(--accent);
+    background-color: var(--white);
+    transform: scale(1.05) rotate(-0.005turn);
+    box-shadow: 0px 0px 48px var(--shadow);
+    border-radius: 1rem;
+}
+
+/* Titles */
+.section-title {
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Article card */
+.card {
+    border:0;
+    box-shadow: 0px 0px 48px var(--shadow);
+    transition: .6s;
+}
+    .card:focus-within,
+    .card:hover {
+        transform: translateY(-1rem) scale(1.02);
+        box-shadow: 0px 0px 48px var(--grey);
+    }
+    .card-body {
+        padding: 2.4rem 1.4rem;
+    }
+    .formations .card-body {
+        padding: 4rem 1.4rem;
+    }
+    .card-date {
+        display: flex;
+        font-size: 1.6rem;
+        color: var(--black);
+        margin-bottom: 1.6rem;
+    }
+    .card-date .card-cal-picto {
+        margin-right: .8rem;
+    }
+    .card-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1.6rem;
+    }
+    .formations .card-title {
+        margin-top: 0;
+        margin-bottom: 4rem;
+    }
+    .card-text {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    .card-footer {
+        border: 0;
+        padding: 0;
+        border-radius: 0 0 0.25rem 0.25rem;
+    }
+    .card-footer-btn {
+        font-size: 1.8rem;
+        border-radius: 0 0 0.25rem 0.25rem;
+    }
+    .card-footer-btn:hover {
+        color:var(--white);
+    }
+    .right-arrow-icon {
+        margin-left: 1rem;
+        width: 1.4rem;
+    }
+
+
+/* Student "card" */
+.student-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .student-img {
+        max-width: 21.8rem;
+        transition: .6s;
+        border-radius: 50%;
+    }
+    .student-img:focus-within,
+    .student-img:hover {
+        transform: scale(1.05) rotate(-0.01turn);
+        box-shadow: 0px 0px 48px var(--shadow);
+    }
+    .student-name {
+        margin: 2rem auto;
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+    .student-link {
+        color: var(--white);
+        transition: .4s;
+    }
+    .student-link:hover {
+        color: var(--white);
+        transform: scale(1.1);
+    }
+
+
+
+@media screen and (min-width:48em) {
+    .btn-cta {
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+    }
+    /* Article card */
+    .card-title {
+        font-size: 2.2rem;
+    }
+    .card-text {
+        font-size: 1.8rem;
+    }
+    .card-footer-btn {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:62em) {
+    /* Boutons */
+    .btn-cta {
+        margin-top: 2.5rem;
+        font-size: 3rem;
+        padding: 2rem 3rem;
+    }
+
+    /* Titles */
+    .section-title {
+        font-size: 4.8rem;
+        margin-bottom: 4rem;
+    }
+
+    /* Article card */
+    .card-title {
+        font-size: 2.4rem;
+    }
+    .card-text {
+        font-size: 2rem;
+    }
+    .card-footer-btn {
+        font-size: 2.4rem;
+    }
+    .right-arrow-icon {
+        margin-left: 1.6rem;
+        width: 2rem;
+    }
+}
+@media screen and (min-width:75em) {
+    .btn-cta {
+        font-size: 3.4rem;
+    }
+}
+@media screen and (min-width:90em) {
+    .btn-cta {
+        margin-top: 3rem;
+        font-size: 4rem;
+        line-height: 3.6rem;
+    }
+}
+
+
+
+/* Navigation ----------------------------------------------------------------- Navigation */
+.navbar {
+    background-color: var(--accent);
+    padding: 2.2rem;
+}
+
+.navbar a {
+    color: var(--white);
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-link {
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.navbar .navbar-nav .active,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+    background-color: var(--white);
+    color: var(--accent);
+    
+}
+
+.navbar .navbar-toggler {
+    color: var(--white);
+}
+.navbar .navbar-toggler-icon {
+    width: auto;
+    height: auto;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+@media screen and (min-width:62em) {
+    .navbar-brand {
+        font-size: 3.2rem;
+    }
+}
+@media screen and (min-width:75em) {
+    .navbar-brand {
+        font-size: 4.8rem;
+    }
+    .navbar .navbar-nav .nav-link {
+        padding: 1rem 2rem;
+        font-size: 2rem;
+    }
+}
+
+
+/* Hero ----------------------------------------------------------------- Hero */
+.hero {
+    background-color: var(--grey);  /* Si l'image ne charge pas */
+    background: url("../img/laptop-background@2x_min.webp") center / cover;
+}
+
+.hero .hero-content {
+    background-color: var(--dark-opacity);
+    color: var(--white);
+    padding: 1.5em;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .site-title {
+    font-size:3rem;
+    line-height: 1.2;
+}
+
+@media screen and (min-width:48em) {
+    .hero .site-title {
+        font-size:4rem;
+    }
+}
+@media screen and (min-width:62em) {
+    .hero .hero-content {
+        padding: 2.5rem;
+        margin-top: 24rem;
+        margin-bottom: 12rem;
+    }
+
+    .hero .site-title {
+        font-size:5rem;
+    }
+}
+@media screen and (min-width:75em) {
+    .hero .site-title {
+        font-size:6rem;
+    }
+}
+@media screen and (min-width:90em) {
+    .hero .site-title {
+        font-size:7.2rem;
+    }
+}
+
+
+/* Footer ----------------------------------------------------------------- Footer */
+footer {
+    padding: 4rem 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--white);
+    transition: .4s;
+}
+/* Bug de non prise en compte ! */
+.footer-link:focus,
+.footer-link:hover {
+    color: var(--white);
+    transform: scale(1.05);
+}
+.address {
+    font-size: 2rem;
+    line-height: 3.6rem;
+}
+.address-item:first-child {
+    font-weight: 700;
 }
