@@ -146,30 +146,28 @@ $pageName = 'Les étudiants';
 
         <!-- Pagination -->
         <div class="row">
-                <div class="col-12">
-                    <nav aria-label="Navigation entre les pages de formations">
-                        <ul class="pagination">
-                            <li class="page-item mx-3">
-                            <a class="page-link px-3" href="#" aria-label="Précédent">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                            </li>
-                            <li class="page-item mx-3"><a class="page-link px-3 active" href="#">1</a></li>
-                            <li class="page-item mx-3"><a class="page-link px-3" href="#">2</a></li>
-                            <li class="page-item mx-3"><a class="page-link px-3" href="#">3</a></li>
-                            <li class="page-item mx-3">
-                            <a class="page-link px-3" href="#" aria-label="Suivant">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>  <!-- End - Pagination -->
+            <div class="col-12">
+                <nav aria-label="Navigation entre les pages de formations">
+                    <ul class="pagination">
+                        <li class="page-item mx-3">
+                        <a class="page-link px-3" href="#" aria-label="Précédent">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                        </li>
+                        <li class="page-item mx-3"><a class="page-link px-3 active" href="#">1</a></li>
+                        <li class="page-item mx-3"><a class="page-link px-3" href="#">2</a></li>
+                        <li class="page-item mx-3"><a class="page-link px-3" href="#">3</a></li>
+                        <li class="page-item mx-3">
+                        <a class="page-link px-3" href="#" aria-label="Suivant">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>  <!-- End - Pagination -->
 
-
-
-
+    </div>  <!-- End - Container -->
 
 </main>
 

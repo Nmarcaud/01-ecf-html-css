@@ -264,7 +264,7 @@ section {
 
 /* Pagination element */
 .pagination {
-    margin-top: 8rem;
+    margin-top: 4rem;
     justify-content: center;
 }
 .pagination .page-link {
