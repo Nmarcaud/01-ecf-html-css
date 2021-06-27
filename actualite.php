@@ -27,7 +27,7 @@ $pageName = 'Actualité';
                 </div>
                 <div class="col-12 col-md-10 col-lg-8 text-center">
                     <small class="card-date">
-                        <img class="card-cal-picto" src="img/icon-date.svg"alt="Icone de calendrier">
+                        <img class="card-cal-picto" src="img/icon-date.svg" alt="Icone de calendrier">
                         <time datetime="2020-02-12">12/02/2020</time>
                     </small>
                 </div>
@@ -37,11 +37,6 @@ $pageName = 'Actualité';
             </div>
         </div>  <!-- End - Container -->
     </section>  <!-- End - Section actualité -->
-
-
-
-
-
 
 </main>
 

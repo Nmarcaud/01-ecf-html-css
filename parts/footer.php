@@ -20,7 +20,7 @@
             <!-- Col Links -->
             <div class="col-12 col-md-6 col-lg-4">
                 <ul class="links-list d-flex text-center text-md-end text-lg-center flex-column flex-lg-row justify-content-evenly" role="list">
-                    <li class="link-item"><a class="footer-link" href="#" disabled>Mentions légales</a></li>
+                    <li class="link-item"><a class="footer-link" href="#">Mentions légales</a></li>
                     <li class="link-item"><a class="footer-link" href="confidentialite.php">Politique de confidentialité</a></li>
                 </ul>
             </div>

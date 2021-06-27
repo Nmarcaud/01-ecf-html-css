@@ -55,7 +55,7 @@ $pageName = 'Home';
                         <img class="card-img-top" src="img/ecran_min.webp" srcset="img/ecran@2x_min.webp 2x" alt="Écran d'ordinateur avec des lignes de codes affichées et un terminal ouvert">
                         <div class="card-body">
                             <small class="card-date">
-                                <img class="card-cal-picto" src="img/icon-date.svg"alt="Icone de calendrier">
+                                <img class="card-cal-picto" src="img/icon-date.svg" alt="Icone de calendrier">
                                 <time datetime="2020-02-12">12/02/2020</time>
                             </small>
                             <h3 class="card-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
@@ -74,7 +74,7 @@ $pageName = 'Home';
                         <img class="card-img-top" src="img/laptop_min.webp" srcset="img/laptop@2x_min.webp 2x" alt="Ordinateur portable ouvert affichant des lignes de code sur son écran">
                         <div class="card-body">
                             <small class="card-date">
-                                <img class="card-cal-picto" src="img/icon-date.svg"alt="Icone de calendrier">
+                                <img class="card-cal-picto" src="img/icon-date.svg" alt="Icone de calendrier">
                                 <time datetime="2020-02-12">12/02/2020</time>
                             </small>
                             <h3 class="card-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
@@ -93,7 +93,7 @@ $pageName = 'Home';
                         <img class="card-img-top" src="img/clavier_min.webp" srcset="img/clavier@2x_min.webp 2x"  alt="Clavier d'ordinateur noir rétroéclairé en bleu">
                         <div class="card-body">
                             <small class="card-date">
-                                <img class="card-cal-picto" src="img/icon-date.svg"alt="Icone de calendrier">
+                                <img class="card-cal-picto" src="img/icon-date.svg" alt="Icone de calendrier">
                                 <time datetime="2020-02-12">12/02/2020</time>
                             </small>
                             <h3 class="card-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
