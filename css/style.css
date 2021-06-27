@@ -251,6 +251,16 @@ section {
         transform: scale(1.1);
     }
 
+    /* Variations spécifiques page "Les étidiants" */
+    .student-page-main-content .student-name{
+        color: var(--black);
+    }
+    .student-page-main-content .student-link {
+        color: var(--accent);
+    }
+    .student-page-main-content .student-link:hover {
+        color: var(--black);
+    }
 
 /* Pagination element */
 .pagination {

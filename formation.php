@@ -13,16 +13,15 @@ $pageName = 'La Formation';
     @include('parts/nav.php');
 ?>
 
-<main>
+<main class="formation-page-main-content">
 
-    <!-- Hero formation -->
     <section>
 
         <div class="container">
             <div class="row justify-content-center">
 
                 <div class="col-12 text-center">
-                    <h1 class="page-title">La formation</h1>
+                    <h1 class="page-title"><?php echo $pageName; ?></h1>
                 </div>
 
                 <div class="col-12 col-md-10 col-lg-8 ">
@@ -133,16 +132,16 @@ $pageName = 'La Formation';
                 <div class="col-12">
                     <nav aria-label="Navigation entre les pages de formations">
                         <ul class="pagination">
-                            <li class="page-item mx-2">
-                            <a class="page-link px-4" href="#" aria-label="Précédent">
+                            <li class="page-item mx-3">
+                            <a class="page-link px-3" href="#" aria-label="Précédent">
                                 <span aria-hidden="true">&laquo;</span>
                             </a>
                             </li>
-                            <li class="page-item mx-2"><a class="page-link px-4 active" href="#">1</a></li>
-                            <li class="page-item mx-2"><a class="page-link px-4" href="#">2</a></li>
-                            <li class="page-item mx-2"><a class="page-link px-4" href="#">3</a></li>
-                            <li class="page-item mx-2">
-                            <a class="page-link px-4" href="#" aria-label="Suivant">
+                            <li class="page-item mx-3"><a class="page-link px-3 active" href="#">1</a></li>
+                            <li class="page-item mx-3"><a class="page-link px-3" href="#">2</a></li>
+                            <li class="page-item mx-3"><a class="page-link px-3" href="#">3</a></li>
+                            <li class="page-item mx-3">
+                            <a class="page-link px-3" href="#" aria-label="Suivant">
                                 <span aria-hidden="true">&raquo;</span>
                             </a>
                             </li>
