@@ -1,73 +1,113 @@
 
 /* Typographie */
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v15-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/montserrat-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/montserrat-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/montserrat-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/montserrat-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/montserrat-v15-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v15-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/montserrat-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/montserrat-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/montserrat-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/montserrat-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/montserrat-v15-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/raleway-v19-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/raleway-v19-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/raleway-v19-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/raleway-v19-latin-600.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/raleway-v19-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/raleway-v19-latin-600.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+/* raleway-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v19-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/raleway-v19-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/raleway-v19-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/raleway-v19-latin-700.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/raleway-v19-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/raleway-v19-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
-    color: #000;
+    color: var(--black);
     background-color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Colors */
+:root {
+    --black:#331100;
+    --secondary:#663014;
+    --grey:#707070;
+    --accent:#FD7E37;
+    --shadow:#00000029;
+    --dark-opacity:#00000080;
+    --white: #fff;
+}
+
+
+/* Layout */
+/* Géré par Bootstrap */
+
+
+/* Components */
+
+
 /* Navigation */
-/* .toggle-menu {
-    padding: 0.25rem 1rem;
-    color: var(--inverted);
-    background-color: rgba(0,0,0,.15);
-    border: 0;
-    border-radius: 2rem;
-    transition: .3s;
-}
-
-.toggle-menu:hover,
-.toggle-menu:focus {
-    background-color: rgba(0,0,0,.35);
-}
-
-
-.menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
+.navbar {
     background-color: var(--accent);
-    transition: .5s;
+    color: var(--white);
 }
-
-.menu[hidden] {
-    display: block;
-    visibility: hidden;
-    transform: translateX(-100%);
-}
-
-.menu:not([hidden]) {
-    transform: translateX(0);
-}
-
-.menu-link {
-    display: block;
-    padding: 1.6rem;
-    font-size: 1.4rem;
-    line-height: 1.2;
-    color: #fff;
-    text-decoration: none;
-    transition: .3s;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-    background-color: rgba(0,0,0,.25);
-}
-
-@media screen and (min-width: 36em) { 
-    .toggle-menu {
-        display: none;
-    }
-
-    .menu,
-    .menu[hidden] {
-        display: flex;
-        visibility: visible;
-        position: static;
-        transform: translateX(0);
-    }
-} */
