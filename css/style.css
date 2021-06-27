@@ -97,6 +97,7 @@ h4,
     --shadow:#00000029;
     --dark-opacity:#00000080;
     --white: #fff;
+    --placeholder:#33110080;
 }
 
 
@@ -532,4 +533,34 @@ footer {
         width: 40.4rem;
         height: 40.4rem;
     }
+}
+
+/* Page - Contact */
+.contact-form {
+
+}
+.form-label {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.form-control {
+    font-size: 2rem;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid var(--black);
+}
+
+.form-control::placeholder {
+    font-style: italic;
+    font-size: 2rem;
+    color:var(--placeholder)
+}
+
+.submit-btn-form {
+    border: 0;
+    border-radius: .5rem;
+}
+.submit-btn-form:focus,
+.submit-btn-form:hover {
+    background-color: var(--secondary);
 }
