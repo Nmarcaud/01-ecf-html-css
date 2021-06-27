@@ -471,3 +471,14 @@ footer {
 .address-item:first-child {
     font-weight: 700;
 }
+
+
+/* Pages ----------------------------------------------------------------- Pages */
+/* Page - Module de formation */
+.module-page-main-content .page-title {
+    color: var(--white);
+    margin: 13.2rem auto;
+}
+.module-hero {
+    background: url("../img/code-line@2x_min.webp") center / cover;
+}
