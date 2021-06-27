@@ -205,6 +205,29 @@ $pageName = 'Home';
                 </li>
 
             </ul>  <!-- End - Row Modules de formation -->
+            
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="Navigation entre les pages de formations">
+                        <ul class="pagination">
+                            <li class="page-item mx-2">
+                            <a class="page-link" href="#" aria-label="Précédent">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                            </li>
+                            <li class="page-item mx-2"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item mx-2"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item mx-2"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item mx-2">
+                            <a class="page-link" href="#" aria-label="Suivant">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
         
         </div>  <!-- End - Container -->
     </section>  <!-- End - Les modules de la formation -->
