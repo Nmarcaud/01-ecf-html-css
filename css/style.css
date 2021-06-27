@@ -182,7 +182,7 @@ section {
         padding: 4rem 1.4rem;
     }
     .card-date {
-        display: flex;
+        display: inline-flex;
         font-size: 1.6rem;
         color: var(--black);
         margin-bottom: 1.6rem;
@@ -481,4 +481,18 @@ footer {
 }
 .module-hero {
     background: url("../img/code-line@2x_min.webp") center / cover;
+}
+
+/* Page - Actualité simple */
+.news-page-main-content .news-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding-bottom: 4rem;
+}
+.news-page-main-content .text-section {
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 400;
 }

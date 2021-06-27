@@ -38,10 +38,6 @@ $pageName = 'Module';
         </div>
     </section>  <!-- End - Texte du module -->
 
-
-
-
-
 </main>
 
 <!-- Include du footer -->

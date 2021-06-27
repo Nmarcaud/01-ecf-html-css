@@ -52,7 +52,7 @@ $pageName = 'Home';
                 <li class="col-12 col-md-12 col-xl-4"> 
                     <!-- Actu 1 -->
                     <article class="card w-100">
-                        <img class="card-img-top" src="img/ecran_min.webp" srcset="img/ecran@2x_min.webp"  alt="Écran d'ordinateur avec des lignes de codes affichées et un terminal ouvert">
+                        <img class="card-img-top" src="img/ecran_min.webp" srcset="img/ecran@2x_min.webp 2x" alt="Écran d'ordinateur avec des lignes de codes affichées et un terminal ouvert">
                         <div class="card-body">
                             <small class="card-date">
                                 <img class="card-cal-picto" src="img/icon-date.svg"alt="Icone de calendrier">
@@ -71,7 +71,7 @@ $pageName = 'Home';
                 <li class="col-12 col-md-6 col-xl-4"> 
                     <!-- Actu 2 -->
                     <article class="card">
-                        <img class="card-img-top" src="img/laptop_min.webp" srcset="img/laptop@2x_min.webp"  alt="Ordinateur portable ouvert affichant des lignes de code sur son écran">
+                        <img class="card-img-top" src="img/laptop_min.webp" srcset="img/laptop@2x_min.webp 2x" alt="Ordinateur portable ouvert affichant des lignes de code sur son écran">
                         <div class="card-body">
                             <small class="card-date">
                                 <img class="card-cal-picto" src="img/icon-date.svg"alt="Icone de calendrier">
@@ -90,7 +90,7 @@ $pageName = 'Home';
                 <li class="col-12 col-md-6 col-xl-4"> 
                     <!-- Actu 3 -->
                     <article class="card">
-                        <img class="card-img-top" src="img/clavier_min.webp" srcset="img/clavier@2x_min.webp"  alt="Clavier d'ordinateur noir rétroéclairé en bleu">
+                        <img class="card-img-top" src="img/clavier_min.webp" srcset="img/clavier@2x_min.webp 2x"  alt="Clavier d'ordinateur noir rétroéclairé en bleu">
                         <div class="card-body">
                             <small class="card-date">
                                 <img class="card-cal-picto" src="img/icon-date.svg"alt="Icone de calendrier">
@@ -128,28 +128,28 @@ $pageName = 'Home';
 
                 <!-- Col étudiant -->
                 <li class="student-card col-12 col-md-6 col-xl-3">
-                    <img class="student-img" src="img/francine_min.webp" srcset="img/francine@2x_min.webp" alt="Portrait de Francine Auhi">
+                    <img class="student-img" src="img/francine_min.webp" srcset="img/francine@2x_min.webp 2x" alt="Portrait de Francine Auhi">
                     <h3 class="student-name">Francine Auhi</h3>
                     <a href="etudiant.php" class="student-link">En savoir plus</a>
                 </li>
 
                 <!-- Col étudiant -->
                 <li class="student-card col-12 col-md-6 col-xl-3">
-                    <img class="student-img" src="img/ali_min.webp" srcset="img/ali@2x_min.webp" alt="Portrait de Ali Korn">
+                    <img class="student-img" src="img/ali_min.webp" srcset="img/ali@2x_min.webp 2x" alt="Portrait de Ali Korn">
                     <h3 class="student-name">Ali Korn</h3>
                     <a href="etudiant.php" class="student-link">En savoir plus</a>
                 </li>
 
                 <!-- Col étudiant -->
                 <li class="student-card col-12 col-md-6 col-xl-3">
-                    <img class="student-img" src="img/jean_min.webp" srcset="img/jean@2x_min.webp" alt="Portrait de Jean Vascrit">
+                    <img class="student-img" src="img/jean_min.webp" srcset="img/jean@2x_min.webp 2x" alt="Portrait de Jean Vascrit">
                     <h3 class="student-name">Jean Vascrit</h3>
                     <a href="etudiant.php" class="student-link">En savoir plus</a>
                 </li>
 
                 <!-- Col étudiant -->
                 <li class="student-card col-12 col-md-6 col-xl-3">
-                    <img class="student-img" src="img/lara_min.webp" srcset="img/lara@2x_min.webp" alt="Portrait de Lara Velle">
+                    <img class="student-img" src="img/lara_min.webp" srcset="img/lara@2x_min.webp 2x" alt="Portrait de Lara Velle">
                     <h3 class="student-name">Lara Velle</h3>
                     <a href="etudiant.php" class="student-link">En savoir plus</a>
                 </li>
@@ -178,7 +178,7 @@ $pageName = 'Home';
                 <li class="col-12 col-md-6">
                     <!-- Module 1 -->
                     <article class="card">
-                        <img class="card-img-top" src="img/code-line_min.webp" srcset="img/code-line@2x_min.webp"  alt="Zoom sur des lignes de code">
+                        <img class="card-img-top" src="img/code-line_min.webp" srcset="img/code-line@2x_min.webp 2x" alt="Zoom sur des lignes de code">
                         <div class="card-body">
                             <h3 class="card-title">Module HTML/CSS</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
@@ -193,7 +193,7 @@ $pageName = 'Home';
                 <li class="col-12 col-md-6">
                     <!-- Module 2 -->
                     <article class="card">
-                        <img class="card-img-top" src="img/clavier-orange_min.webp" srcset="img/clavier-orange@2x_min.webp"  alt="Un clavier coloré en orange et rose et le logo npm">
+                        <img class="card-img-top" src="img/clavier-orange_min.webp" srcset="img/clavier-orange@2x_min.webp 2x"  alt="Un clavier coloré en orange et rose et le logo npm">
                         <div class="card-body">
                             <h3 class="card-title">Module JavaScript</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
