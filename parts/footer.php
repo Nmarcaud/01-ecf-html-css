@@ -28,9 +28,9 @@
             <!-- Col Socials -->
             <div class="col-12 col-lg-4">
                 <ul class="social-list d-flex justify-content-evenly" role="list">
-                    <li class="social-item"><a class="social-link footer-link" href=""><img class="social-img" src="img/icon-facebook-f.svg" alt="Icone facebook"></a></li>
-                    <li class="social-item"><a class="social-link footer-link" href=""><img class="social-img" src="img/icon-twitter.svg" alt="Icone Twitter"></a></li>
-                    <li class="social-item"><a class="social-link footer-link" href=""><img class="social-img" src="img/icon-linkedin-in.svg" alt="Icone LinkedIn"></a></li>
+                    <li class="social-item"><a class="social-link footer-link" href="https://www.facebook.com/cefimformation/"><img class="social-img" src="img/icon-facebook-f.svg" alt="Icone facebook"></a></li>
+                    <li class="social-item"><a class="social-link footer-link" href="https://twitter.com/cefimformation?lang=fr"><img class="social-img" src="img/icon-twitter.svg" alt="Icone Twitter"></a></li>
+                    <li class="social-item"><a class="social-link footer-link" href="https://www.linkedin.com/school/cefim/?originalSubdomain=fr"><img class="social-img" src="img/icon-linkedin-in.svg" alt="Icone LinkedIn"></a></li>
                 </ul>
             </div>
         </div>  <!-- End - Row -->
